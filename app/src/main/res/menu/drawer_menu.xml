@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menuTop">
+        <item
+            android:id="@+id/itemHome"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/itemCreation"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_baseline_emoji_emotions_24"
+            android:title="MyCreation" />
+        <item
+            android:id="@+id/itemLeaderboard"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_baseline_leaderboard_24"
+            android:title="Leaderbord" />
+        <item
+            android:id="@+id/itemSettings"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings" />
+    </group>
+
+</menu>
